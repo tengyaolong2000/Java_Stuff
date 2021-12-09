@@ -1,4 +1,4 @@
-public class Main {
+public class Exercise00 {
 
     public static void main(String[] args) {
         String t = "";
@@ -19,5 +19,10 @@ public class Main {
         double h = Math.sqrt(Math.pow(a,2) + Math.pow(b,2));
 
         System.out.println(h); //print out the results
+
+        int c=3, d=4, m=0;
+        String r="The minimum value is: ";
+        m = Math.min(c,d);
+        System.out.println(r+m); //print out the results
     }
 }
