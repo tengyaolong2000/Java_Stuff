@@ -19,8 +19,24 @@ class Computer {
 
 public class Example09 {
     public static void main(String[] args){
-        Computer myPC = new Computer();
-        myPC.setCpuSpeed(2.5);
-        System.out.println(myPC.cpuSpeed);
+        Tablet myTab = new Tablet();
+        myTab.setCpuSpeed(2.5);
+        myTab.setScreensize(20);
+        System.out.println(myTab.cpuSpeed);
+        System.out.println(myTab.getScreensize());
+    }
+}
+
+class Tablet extends Computer {
+    //variables
+    private double screensize;
+
+    //methods
+    void setScreensize ( double _screenSize){
+        screensize = _screenSize;
+
+    }
+    double getScreensize(){
+        return screensize;
     }
 }
