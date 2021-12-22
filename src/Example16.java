@@ -19,6 +19,7 @@ public class Example16 {
         Container contain = new Container();
         contain.printContinent();
 
+
         Container container =  new Container(){
             @Override
             public void printContinent(){
