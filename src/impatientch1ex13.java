@@ -26,8 +26,4 @@ public class impatientch1ex13 {
         System.out.println(pickem);
     }
 
-
-
-
-
 }
