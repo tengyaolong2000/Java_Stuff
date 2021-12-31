@@ -29,7 +29,7 @@ public class AccountNeso{
         this.annualInterestRate = annualInterestRate;
 
         this.dateCreated = new Date();
-        System.out.print(dateCreated);
+
     }
 
     public boolean withdraw(double amount){
@@ -75,5 +75,9 @@ public class AccountNeso{
 
      public void setDateCreated(Date dateCreated) {
          this.dateCreated = dateCreated;
+     }
+
+     public String toString(){
+        return this.id + " " + this.balance + " " + this.annualInterestRate + " " + this.dateCreated;
      }
  }
